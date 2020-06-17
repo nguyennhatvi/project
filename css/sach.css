@@ -1,0 +1,213 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CSS NAV */
+header {
+   display:flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+}
+
+nav ul > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 30px 20px;
+    
+}
+
+/* CSS BANNER */
+section.banner {
+    /*animation: doinen ease 6s infinite;*/
+    background-size: 100;
+    background-repeat: none;
+
+}
+.sach{
+    width: 20px;
+}
+section.banner img {
+    /*visibility: hidden;*/
+    
+    width: 100%;
+    height: 400px;
+    
+    top:0;
+    left:0;
+}
+section.subject {
+    background-color:gold;
+    color:white;
+    padding: none;
+}
+
+section.subject h1 {
+    font-size: 3vw;
+    text-align:center;
+    text-shadow: 3px 4px 4px red;
+}
+
+
+/* CSS INTRODUCTION */
+section.introduction {
+    background-color:rosybrown;
+    color:white;
+    text-align:center;
+    padding: 15px 10%;
+}
+
+section.introduction2 {
+    background-color:aquamarine;
+}
+
+section.introduction p {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h1.underline::after {
+    content:" ";
+    height: 5px;
+    width: 10%;
+    background-color:white;
+    display: block;
+    margin: 10px auto;
+}
+
+div.items {
+    display:flex;
+}
+
+div.item {
+    width:25%;
+    padding: 2%;
+}
+
+
+div.item > div:hover {
+    box-shadow:4px 5px 8px white;
+}
+
+div.item > div {
+    background-color:beige;
+    padding:20px;
+}
+
+div.item img {
+    width:100%;
+}
+
+/* CSS PRODUCT */
+section.product {
+    background-color:lightgray;
+    color:black;
+    text-align:center;
+    padding:10px;
+}
+
+div.prods {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.prod {
+    width: 33.33%;
+}
+
+div.prod img {
+    width: 100%;
+   
+    
+}
+
+/* CSS STATS */
+section.stats {
+    background-color: aquamarine;
+    color:black;
+    display:flex;
+    text-align:center;
+}
+section.stats h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+div.stat {
+    width:25%;
+}
+
+/* CSS EVENT */
+section.events {
+    background-color:white;
+    color: gray;
+    text-align:center;
+    padding: 10px;
+}
+
+div.evts {
+    
+    display:flex;
+}
+
+div.evt {
+    padding:10px; 
+    width:25%;
+}
+
+div.evt iframe {
+    width: 100%;
+}
+
+/* CSS GO TO TOP*/
+div.gototop {
+    position:fixed;
+    background-color: rgb(255, 0, 0, 0.5);
+    right: 20px;
+    bottom: 20px;
+    display:none;
+}
+
+div.gototop a {
+    display:block;
+    padding: 20px 15px;
+}
+
+.modal img {
+    width:100% !important;
+}
+
+section.social ul {
+    list-style-type: none;
+    position:fixed;
+    left: -90px;
+    width: 120px;
+    top: 20%;
+    background-color: rgb(0, 255, 0, 0.7); 
+    transition: left 1s;
+}
+
+section.social ul:hover {
+    left: 0;
+}
+
+section.social a {
+    font-size: 30px;
+}
